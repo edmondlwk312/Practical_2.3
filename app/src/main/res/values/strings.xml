@@ -10,4 +10,18 @@
     <string name="button_red">RED</string>
     <string name="button_yellow">YELLOW</string>
     <string name="button_green">GREEN</string>
+
+    <string name="coding_challenge1">Coding Challenge 1</string>
+    <string name="box_one_c1">Box One</string>
+    <string name="box_two_c1">Box Two</string>
+    <string name="box_three_c1">Box Three</string>
+    <string name="box_four_c1">Box Four</string>
+    <string name="box_five_c1">Box Five</string>
+
+    <string name="coding_challenge2">Coding Challenge 2</string>
+    <string name="box_one_c2">Box One</string>
+    <string name="box_two_c2">Box Two</string>
+    <string name="box_three_c2">Box Three</string>
+    <string name="box_four_c2">Box Four</string>
+    <string name="box_five_c2">Box Five</string>
 </resources>

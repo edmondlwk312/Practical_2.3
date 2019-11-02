@@ -28,6 +28,12 @@ class MainActivity : AppCompatActivity()
             R.id.box_four_text -> view.setBackgroundColor(Color.MAGENTA)
             R.id.box_five_text -> view.setBackgroundColor(Color.BLUE)
 
+            R.id.box_one_c1 -> view.setBackgroundColor(Color.DKGRAY)
+            R.id.box_two_c1 -> view.setBackgroundColor(Color.GRAY)
+            R.id.box_three_c1 -> view.setBackgroundColor(Color.BLUE)
+            R.id.box_four_c1 -> view.setBackgroundColor(Color.MAGENTA)
+            R.id.box_five_c1 -> view.setBackgroundColor(Color.BLUE)
+
             R.id.red_button -> box_three_text.setBackgroundResource(R.color.my_red)
             R.id.yellow_button -> box_four_text.setBackgroundResource(R.color.my_yellow)
             R.id.green_button -> box_five_text.setBackgroundResource(R.color.my_green)
@@ -44,6 +50,12 @@ class MainActivity : AppCompatActivity()
         val boxFourText = findViewById<TextView>(R.id.box_four_text)
         val boxFiveText = findViewById<TextView>(R.id.box_five_text)
 
+        val boxOneC1 = findViewById<TextView>(R.id.box_one_c1)
+        val boxTwoC1 = findViewById<TextView>(R.id.box_two_c1)
+        val boxThreeC1 = findViewById<TextView>(R.id.box_three_c1)
+        val boxFourC1 = findViewById<TextView>(R.id.box_four_c1)
+        val boxFiveC1 = findViewById<TextView>(R.id.box_five_c1)
+
         val redButton = findViewById<TextView>(R.id.red_button)
         val greenButton = findViewById<TextView>(R.id.green_button)
         val yellowButton = findViewById<TextView>(R.id.yellow_button)
@@ -54,6 +66,7 @@ class MainActivity : AppCompatActivity()
             listOf(
                 boxOneText, boxTwoText, boxThreeText,
                 boxFourText, boxFiveText, rootConstraintLayout,
+                boxOneC1, boxTwoC1, boxThreeC1, boxFourC1, boxFiveC1,
                 redButton, greenButton, yellowButton
             )
 
